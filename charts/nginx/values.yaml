@@ -1,0 +1,23 @@
+deploy:
+  replicas: 2
+  strategy:
+    custom: true
+    strategy: RollingUpdate   #####
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+  image: nginx
+  containerName: nginx
+  port: 80
+  imagePullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  name: traffic
+  targetPort: 80
+  port: 80
+  NodePort: 31000
+
+
+
+  
