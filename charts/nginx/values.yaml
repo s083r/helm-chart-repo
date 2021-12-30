@@ -16,7 +16,7 @@ service:
   name: traffic
   targetPort: 80
   port: 80
-  NodePort: 31000
+  NodePort: 31588
 
 
 
