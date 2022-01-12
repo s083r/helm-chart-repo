@@ -13,6 +13,17 @@ entries:
     - https://github.com/mayanknoldus/helm-chart-repo/releases/download/nginx-1.1.0/nginx-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2022-01-12T10:27:58.415276381Z"
+    description: Nginx deploy
+    digest: 09659e3e26a9441921d09145798a5935187efe369cca9ee500b5a13c25e62a42
+    keywords:
+    - demo
+    name: nginx
+    urls:
+    - https://github.com/mayanknoldus/helm-chart-repo/releases/download/nginx-1.0.1/nginx-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
     appVersion: 1.0.0
     created: "2021-12-29T04:59:55.255960012Z"
     description: Nginx deploy
