@@ -6,7 +6,7 @@ deploy:
     rollingUpdate:
       maxSurge: 25%
       maxUnavailable: 25%
-  image: nginx:1.21
+  image: nginx
   containerName: nginx
   port: 80
   imagePullPolicy: IfNotPresent
