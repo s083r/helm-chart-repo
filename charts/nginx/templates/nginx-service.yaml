@@ -10,6 +10,7 @@ spec:
       targetPort: {{ .targetPort }}
       port: {{ .port }}
       {{- include "{{ .Chart.Name }}.serviceType" $ | indent 6 }}   ####   
+      nodePort: {{ .NodePort }}
   selector:
     app: {{ $.Chart.Name }}-{{ $.Release.Name }}
     {{- end }}
