@@ -2,37 +2,14 @@ apiVersion: v1
 entries:
   nginx:
   - apiVersion: v1
-    appVersion: 1.1.0
-    created: "2021-12-29T05:06:00.974372879Z"
-    description: Nginx deploy
-    digest: f225bf92b9f65cba08ccc2e660e5e0048fa7ef4903a3c2df0b54cf961119073d
-    keywords:
-    - demo
-    name: nginx
-    urls:
-    - https://github.com/mayanknoldus/helm-chart-repo/releases/download/nginx-1.1.0/nginx-1.1.0.tgz
-    version: 1.1.0
-  - apiVersion: v1
-    appVersion: 1.0.1
-    created: "2022-01-12T10:27:58.415276381Z"
-    description: Nginx deploy
-    digest: 09659e3e26a9441921d09145798a5935187efe369cca9ee500b5a13c25e62a42
-    keywords:
-    - demo
-    name: nginx
-    urls:
-    - https://github.com/mayanknoldus/helm-chart-repo/releases/download/nginx-1.0.1/nginx-1.0.1.tgz
-    version: 1.0.1
-  - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-12-29T04:59:55.255960012Z"
+    created: "2022-07-24T13:05:12.141977406Z"
     description: Nginx deploy
-    digest: 61c1ad8742f038f9571892dbfc6be266124c0116f1703954e42cdf4cbbd55d1b
+    digest: 7003b03546b388c6f78672103887b6c92dc8463c74151a4ce2b8c35483dde0c7
     keywords:
     - demo
     name: nginx
     urls:
-    - https://github.com/mayanknoldus/helm-chart-repo/releases/download/nginx-1.0.0/nginx-1.0.0.tgz
+    - https://github.com/s083r/helm-chart-repo/releases/download/nginx-1.0.0/nginx-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-29T04:59:55.136525881Z"
-
+generated: "2022-07-24T13:05:11.966281111Z"
